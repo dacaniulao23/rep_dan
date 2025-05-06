@@ -84,4 +84,3 @@ print(f"el valor resultante es {num}")
 from random import randint
 n1=int(input("ingrese un número"))
 if n1==randint(1,50):
-    

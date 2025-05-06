@@ -37,9 +37,9 @@ else:
     print ("el mayor alcanzó a ser ", r3)
 
 #str = definir como CARACTER
-contraseña="torna"
 clave=str(input("ingrese clave"))
-while clave!=contraseña:
+#___.lower = acertar escritura independiente de las mayúsculas
+while clave.lower!="torna":
     print("clave incorrecta, intente de nuevo")
     clave=input()
 
@@ -77,7 +77,20 @@ print("resultado aleatorio de ", azar2)
 #import random
 #___=random.randint()
 
-
-
+n4=50
+#True = verdadero
+valor=True
+#"valor" no necesita comparativa ya que de por si es lógico
+while n4>=0 and valor:
+    total=n4-10
+    resp=str(input("seguir?(si)(no)"))
+    if resp=="no":
+#False = falso
+        valor=False
+print("hay un total de", total)
 #from random import randint
-#___=randint()
+#____=randint
+from random import randint
+#float = definir como REAL
+deci=float(randint(0,20))
+

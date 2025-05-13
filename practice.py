@@ -94,3 +94,17 @@ from random import randint
 #float = definir como REAL
 deci=float(randint(0,20))
 
+n5=int(input("ingresa un número nuevo"))
+
+#match = segun
+match n5:
+    #case = opcion
+    case 0:
+        print("número neutro")
+    case 1:
+        print("número positivo")
+    case -1:
+        print("numero negtivo")
+    #case _ = de otro modo
+    case _:
+        print("saliendo")

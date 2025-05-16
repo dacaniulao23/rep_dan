@@ -49,3 +49,12 @@ while True:
 #nuevo menu repursivo
 # tener tres programas hechos y ejecutarlos
 # tener la opcion de salir y ejecutarlos correctamente
+
+
+while True:
+    try:
+        num=int(input("ingrese un número mayor a 3 "))
+        if num>3:
+            break
+    except Exception:
+        print("solo debe ingresar números ")

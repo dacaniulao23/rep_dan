@@ -108,3 +108,6 @@ match n5:
     #case _ = de otro modo
     case _:
         print("saliendo")
+
+#milista.reverse[]
+#milista.sort[reverse True]
